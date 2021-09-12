@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@200&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 5vw;
+}
+
+.heading {
+    display: flex;
+    padding: 25px;
+    font-family: 'Courgette', cursive;
+}
+
+.nav-links {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li:hover:not(:last-child) {
+    font-weight: bolder;
+    transform: scale(1.2);
+}
+
+.nav-list a {
+    text-decoration: none;
+}
+
+.nav-list {
+    justify-self: flex-end;
+    list-style: none;
+    padding: 20px;
+}
+
+.cta {
+    border-radius: 10px;
+    border: 2px solid rgb(32, 240, 188);
+    padding: 5px 15px;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.cta:hover {
+    color: black;
+    font-weight: bold;
+    background-color: rgba(32, 240, 188);
+    cursor: pointer;
+    transform: scale(0.95);
+}
+
+.hero {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.ulist1 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding: 40px 5vw;
+}
+
+.list1 {
+    padding: 0 10px;
+    margin-left: 30px;
+}
+
+.hero .cta {
+    transform: scale(1.2);
+}
+
+.hero .cta:hover {
+    transform: scale(1.1);
+}
+
+.ulist1 li:first-child {
+    list-style: none;
+}
+
+footer {
+    height: 10vh;
+    background-color: rgb(1, 19, 17);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h1 {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+.mail {
+    padding: 15px;
+    text-decoration: none;
+}
+
+.Number {
+    text-decoration: none;
+    padding: 15px;
+}
+
+.Social {
+    display: flex;
+    flex-direction: row;
+}
+
+.Social a {
+    text-decoration: none;
+    padding-left: 60px;
+}
+
+.Social i:hover {
+    transform: scale(0.99);
+    color: rgb(88, 87, 87);
+}
