@@ -2,9 +2,10 @@
 Landing Page using HTML and CSS
 
 ## 🔗 Links
-- Solution URL: [Github_Page](https://github.com/somyasubham9/Chasing-Lights)
+URL:  
+- [Github_Live_URL](https://somyasubham9.github.io/Chasing-Lights/)
 
-- Live Site URL: [Vercel Live URL](https://chasing-lights-five.vercel.app/)
+- [Vercel Live URL](https://chasing-lights-five.vercel.app/)
 
 ## Authors
 
